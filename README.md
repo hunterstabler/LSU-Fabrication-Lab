@@ -9,4 +9,4 @@ One of the main advantages of using Aspire or V-Carve to generate G code is that
 
 ! [vector-file-formats](vector-file-formats.JPG)
 
-! [3D Aspire file formats](3D Aspire file formats.png)
+! [3D_Aspire_file_formats](3D_Aspire_file_formats.png)
