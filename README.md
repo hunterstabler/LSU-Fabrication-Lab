@@ -7,6 +7,6 @@ This tutorial was written for students in the College of Art and Design for use 
 
 One of the main advantages of using Aspire or V-Carve to generate G code is that you can simply import a variety of 2D file types and easily create g-code for milling functions such as profiling and pocketing. You can import the following types of 2D and 3D files into Aspire:
 
-! [vector-file-formats](vector-file-formats.JPG)
+![vector-file-formats](vector-file-formats.JPG)
 
-! [3D_Aspire_file_formats](3D_Aspire_file_formats.png)
+![3D_Aspire_file_formats](3D_Aspire_file_formats.png)
