@@ -10,3 +10,8 @@ One of the main advantages of using Aspire or V-Carve to generate G code is that
 ![vector-file-formats](vector-file-formats.JPG)
 
 ![3D_Aspire_file_formats](3D_Aspire_file_formats.png)
+
+### Creating Geometry for Aspire
+
+It may be beneficial to organize your drawing in layers and/or by color based on which functions or depths of cut you would ultimately like to perform on the CNC router. 
+
