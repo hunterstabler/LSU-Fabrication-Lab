@@ -9,3 +9,37 @@ One of the main advantages of using Aspire or V-Carve to generate G code is that
 ![3D_Aspire_file_formats](3D_Aspire_file_formats.png)
 
 ### Creating Geometry for Aspire
+
+Create your file as lines/curves only(2D) in a CAD program, Rhino or Adobe Illustrator. Use color and/or layers to organize your lines according the the function you would like to perform on each. For example, if you want to pocket some shapes to .5", pocket some shapes to .25", and cut some shapes out using profiling; you could put the .5" pocket shapes in layer one as red, the .25" pocket shapes in layer 2 as black and the profiling curves as green in layer 3. There are not specific functions assigned to different colors in Aspire; you will manually assing the specific function and depth of cut in Aspire; You are using the layers and colors to make selecting your different line/curve groups a more simple and organized process in Aspire. Using Adobe Illustrator, your color information will not be transferred, but your vectors and layers will still open in Apsire. 
+
+    In CAD save your file as a DXF or DWG
+    
+    In Rhino select the curves you would like to use and export them as a DXF or DWG (new versions of Apsire can open 3DM files but not our version)
+    
+    In Adobe Illustrator export your file as a DXF or DWG (you can open an AI or EPS but it will not record your layer information make sure your shapes and lines do not have a fill applied before saving) 
+
+###Open your file in Aspire
+
+insert your usb and drag your file onto the desktop of the computer. 
+
+Open Aspire and go to File > Open and select your file
+
+####Set up your stock
+    1. In "Job Setup" dictate the width and height of materials based on the width and height of your stock
+    
+    2. Set the Material thickness to match the thickness of your stock
+    
+    Set the Material (Z) to either the top of your material or the bottom of your material. Setting the (z) to the top of the material means you will manually set the (z) in Velocity CNC interface and on the CNC machine to the top of your stock in the Z axis
+    
+    3. Set the XY Datum Position to the bottom left position and uncheck the "Use Offset"
+    
+    4. Very that you are working in the correct units: inches or mm
+    
+    5. You can also change the Appearance of your material to match your stock material but it is not neccessary.
+    
+    6. 
+    
+    
+    
+    
+    
